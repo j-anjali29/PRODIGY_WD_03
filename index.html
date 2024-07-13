@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div id="game-board" class="game-board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <div id="status-message"></div>
+        <button id="restartBtn">Restart Game</button>
+    </div>
+
+    <audio id="moveSound">
+        <source src="mixkit-modern-technology-select-3124.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="winSound">
+        <source src="mixkit-achievement-bell-600 (1).wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="drawSound">
+        <source src="mixkit-negative-guitar-tone-2324.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
